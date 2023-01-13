@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header{
+    background-color: #061a22;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    text-transform: uppercase;
+}
+
+header a:hover{
+    color: white;
+    transition: 500ms;
+}
+
+header nav a{
+    padding: 3vh 3vw;
+    text-decoration: none;
+    color: #013d4e;
+}
+
+.imgtopo{
+    width: 100%;
+    padding-top: 7vh;
+}
+
+.mid{
+    text-align: center;
+    padding: 5vh 15vw;
+    line-height: 1.7em;
+}
+
+.mid p{
+    color: gray;
+    padding-top: 4vh;
+}
+
+.content-selector{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10vh 10vw;
+}
+
+.content-selector div{
+    line-height: 4vh;
+    text-align: center;
+}
+
+.content-selector h2{
+    text-transform: uppercase;
+    letter-spacing: 0.1vw;
+    font-size: 120%;
+}
+
+.content-selector p{
+    color: gray;
+    font-size: 120%;
+}
+
+.imagetext{
+    background: #003D52;
+}
+
+.decoration{
+    display: flex;
+}
+
+.imagetext h1{
+    text-transform: uppercase;
+    color: white;
+    padding-top: 15vh;
+    padding-left: 10vw;
+    font-size: 300%;
+}
+
+.imagetext p{
+    color: white;
+    padding: 5vh 10vw 0 10vw;
+    font-size: 120%;
+    box-sizing: border-box;
+}
+
+.contact{
+    text-align: center;
+    color: #003D52;
+    text-transform: uppercase;
+    padding: 5vh 5vw;
+    font-weight: 900;
+}
+
+
+.rodape{
+    background-color: #001018;
+    height: 50px;
+    text-align: center;
+    color: #003D52;
+    text-shadow: 3px 3px 2px black;
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin-top: 5vh;
+}
+    
